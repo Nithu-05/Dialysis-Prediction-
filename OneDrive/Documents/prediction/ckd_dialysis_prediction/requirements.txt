@@ -1,0 +1,19 @@
+# --- Core API Framework ---
+fastapi
+uvicorn
+
+# --- ML Model & Data Handling ---
+tensorflow
+pandas
+numpy
+scikit-learn
+
+# --- Explainable AI (Optional but Recommended) ---
+shap
+lime
+
+# --- NLP (for BERT-based text analysis) ---
+transformers
+
+# --- File Uploads ---
+python-multipart
