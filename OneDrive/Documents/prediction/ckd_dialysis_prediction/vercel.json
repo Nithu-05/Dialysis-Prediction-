@@ -1,1 +1,16 @@
-{"rewrites": [{"source": "/(.*)", "destination": "/"}]}
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/backend/app.py"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/frontend/build/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/frontend/index.html"
+    }
+  ]
+}
